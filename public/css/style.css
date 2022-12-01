@@ -1,0 +1,138 @@
+#fashion {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+.fash {
+    display: flex;
+    height: 33%;
+    width: 100%;
+    gap: 10px;
+}
+.carré {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    gap: 10px;
+}
+.normal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+.allongé {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {  
+    .fashion {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .fash {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .carré {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .normal {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3em;
+    }
+    .allongé {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 1px) {
+    .fashion {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .fash {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .carré {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .normal{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3em;
+    }
+    .allongé {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3em;
+    }
+}
